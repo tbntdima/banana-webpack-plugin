@@ -1,8 +1,12 @@
 {
   "name": "banana-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack plugin that turns content of output files into a single banana 🍌",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitriyaa/banana-webpack-plugin"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
