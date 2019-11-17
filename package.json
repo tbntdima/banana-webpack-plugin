@@ -1,0 +1,20 @@
+{
+  "name": "banana-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugin that turns content of output files into a single banana 🍌",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "banana"
+  ],
+  "author": {
+    "name": "Dima An",
+    "email": "dmitriym44@gmail.com",
+    "url": "https://twitter.com/tbnt_dima/"
+  },
+  "license": "ISC"
+}
