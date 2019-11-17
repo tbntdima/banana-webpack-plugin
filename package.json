@@ -1,6 +1,6 @@
 {
   "name": "banana-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Webpack plugin that turns content of output files into a single banana 🍌",
   "main": "index.js",
   "repository": {
