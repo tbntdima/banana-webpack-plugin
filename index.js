@@ -7,8 +7,13 @@ class BananaWebpackPlugin {
           assets[assetKey]._value = "🍌";
         } else if (typeof assets[assetKey].source !== "undefined") {
           assets[assetKey].source = () => "🍌";
-        } else {
+        } else if (typeof assets[assetKey]._source.source !== "undefined") {
           assets[assetKey]._source.source = () => "🍌";
+        } else {
+          console.log(
+            `Sorry it seems that ${assets[assetKey]} is not supported yet.`
+          );
+          console.log(`We welcome any contribution thought :)`);
         }
       });
     });
